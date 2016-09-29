@@ -8,9 +8,6 @@ import logging
 from multiprocessing import Process, Queue, Lock
 
 
-global SHOULD_RUN_AS_SERVER
-SHOULD_RUN_AS_SERVER = False
-
 global OPEN_SOCKET
 OPEN_SOCKET = socket.socket()
 OPEN_HOST = socket.gethostname()
